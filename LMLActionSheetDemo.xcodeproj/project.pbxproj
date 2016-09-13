@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4868D4C61D87E795004D3CEE /* LMLActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868D4C51D87E795004D3CEE /* LMLActionSheet.m */; };
+		4868D4CA1D880C50004D3CEE /* LMLActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4868D4C91D880C50004D3CEE /* LMLActionSheet.m */; };
 		48A495F61D82887B007F82EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A495F51D82887B007F82EB /* main.m */; };
 		48A495F91D82887B007F82EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A495F81D82887B007F82EB /* AppDelegate.m */; };
 		48A495FC1D82887B007F82EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A495FB1D82887B007F82EB /* ViewController.m */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4868D4C41D87E795004D3CEE /* LMLActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLActionSheet.h; sourceTree = "<group>"; };
-		4868D4C51D87E795004D3CEE /* LMLActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLActionSheet.m; sourceTree = "<group>"; };
+		4868D4C81D880C50004D3CEE /* LMLActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLActionSheet.h; sourceTree = "<group>"; };
+		4868D4C91D880C50004D3CEE /* LMLActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLActionSheet.m; sourceTree = "<group>"; };
 		48A495F11D82887B007F82EB /* LMLActionSheetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLActionSheetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A495F51D82887B007F82EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A495F71D82887B007F82EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,20 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4868D4C31D87E795004D3CEE /* LMLActionSheet */ = {
+		4868D4C71D880C50004D3CEE /* LMLActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				4868D4C41D87E795004D3CEE /* LMLActionSheet.h */,
-				4868D4C51D87E795004D3CEE /* LMLActionSheet.m */,
+				4868D4C81D880C50004D3CEE /* LMLActionSheet.h */,
+				4868D4C91D880C50004D3CEE /* LMLActionSheet.m */,
 			);
-			name = LMLActionSheet;
-			path = LMLActionsheet;
+			path = LMLActionSheet;
 			sourceTree = "<group>";
 		};
 		48A495E81D82887B007F82EB = {
 			isa = PBXGroup;
 			children = (
-				4868D4C31D87E795004D3CEE /* LMLActionSheet */,
+				4868D4C71D880C50004D3CEE /* LMLActionSheet */,
 				48A495F31D82887B007F82EB /* LMLActionSheetDemo */,
 				48A4960D1D82887B007F82EB /* LMLActionSheetDemoTests */,
 				48A496181D82887B007F82EB /* LMLActionSheetDemoUITests */,
@@ -287,7 +286,7 @@
 				48A495FC1D82887B007F82EB /* ViewController.m in Sources */,
 				48A495F91D82887B007F82EB /* AppDelegate.m in Sources */,
 				48A495F61D82887B007F82EB /* main.m in Sources */,
-				4868D4C61D87E795004D3CEE /* LMLActionSheet.m in Sources */,
+				4868D4CA1D880C50004D3CEE /* LMLActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
